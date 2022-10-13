@@ -1,0 +1,23 @@
+name: wndr_lazy_paginated_data_table
+
+description: >
+  A wrapper widget for Flutter's [PaginatedDataTable](https://api.flutter.dev/flutter/material/PaginatedDataTable-class.html),
+  which allows the user to load the pages lazily.
+
+version: 1.0.0-dev.1
+
+repository: https://github.com/wunderbytes/wndr_lazy_paginated_data_table
+issue_tracker: https://github.com/wunderbytes/wndr_lazy_paginated_data_table/issues
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
